@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/Aadhi011")
+                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/Om56577")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -41,14 +41,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/+7TDyeW7IWxcwOWI1'),
-            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/+GSOQyY1lg4I1NjY1')
+            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/MRAUPLOADS'),
+            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/moviesrequestaccepted')
             ],[      
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
-            InlineKeyboardButton('🔔 Download 🔔', url='https://t.me/moviesrequestaccepted')
+            InlineKeyboardButton('🔍Search Movie', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ ꜱᴜʙꜱᴄʀɪʙᴇ ✅', url='https://www.youtube.com/channel/UCX1CbQN_Pczcawfpz-raO1g')
+            InlineKeyboardButton('🔞18+ Movies🔞', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -67,16 +67,19 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "ꜱᴜʙꜱᴄʀɪʙᴇ", url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
+            ],[
+                InlineKeyboardButton(
+                    "ᴊᴏɪɴ ɢʀᴏᴜᴘ", url=invite_link.invite_link
                 )
-            ]
+                ]
         ]
 
         if message.command[1] != "subscribe":
             btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!**",
+            text="**𝘗𝘭𝘦𝘢𝘴𝘦 𝘧𝘪𝘳𝘴𝘵 𝘚𝘶𝘣𝘴𝘤𝘳𝘪𝘣𝘦 𝘔𝘺 𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 & 𝘑𝘰𝘪𝘯 𝘔𝘺 𝘎𝘳𝘰𝘶𝘱 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘉𝘰𝘵!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -85,14 +88,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/+7TDyeW7IWxcwOWI1'),
-            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/+GSOQyY1lg4I1NjY1')
+            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/MRAUPLOADS'),
+            InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/moviesrequestaccepted')
             ],[      
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'),
-            InlineKeyboardButton('🔔 Download 🔔', url='https://t.me/moviesrequestaccepted')
+            InlineKeyboardButton('🔍Search Movie', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ ꜱᴜʙꜱᴄʀɪʙᴇ ✅', url='https://www.youtube.com/channel/UCX1CbQN_Pczcawfpz-raO1g')
+            InlineKeyboardButton('🔞18+ Movies🔞', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
